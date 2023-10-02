@@ -1,0 +1,35 @@
+==========================================================The line of Coding Member=============================================================
+Line1-Line186:     Ngim Panha
+Line187-Line901:   Lang Yanut
+Line902-Line1365:  Kry SengHort
+Line1366-Line1622: Visal 
+Line1623-Line2467: Ngim Panha
+=============================================================The element of each line==============================================================
+1-14:    Library
+15-160 : Hash Table
+161-186: : OOP(Inheritance)
+187-196: Database
+197-267: Insert Data in Database
+268-287: Insert Database , using linear probing, oop
+288-309: Linked list(single linked list use to insert information)
+310-367: Linked list(search by ID)
+368-415: Linked list
+416-903: Database
+904-925: OOP
+926-971: Switch Case 
+972-982: Database
+983-1085: Database
+1086-1010: Databse
+1011-1141: Double Linked List
+1142-1365: Database and Linked List
+1368-1394: OOP (polymorphism)
+1395-1466: Tree and Binary Search Tree
+1467-1476: Database
+1477-1506: Linked List
+1507-1579: Database
+1686-1728: OOP(choose menu)
+1729-1990: OOP(polymorphism)
+1991-2357 (oop Poly )
+2031-2074(Data Base)
+2075-2146(Stack with Array)
+2148-2356(Queue with array and File)

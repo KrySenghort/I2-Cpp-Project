@@ -1,0 +1,43 @@
+===============================================================================================================
+/*The iomanip is a library in C++ which helps us in manipulating the output of any C++ program.
+  There are many functions in this library that help in manipulating the output. To name a few we have
+  functions to reset flags, set fill characters, set precision, get date and time, etc   */
+===============================================================================================================
+/*The sqlite3_stmt structure holds a prepared statement. This is all the state and execution information
+  required to build and execute an SQL statement. Statements are used to set any bound parameter values
+  and get any result values. */
+===============================================================================================================
+/*The SQLITE_OK result code means that the operation was successful and that there were no errors.
+  Most other result codes indicate an error. */
+===============================================================================================================
+/*The sqlite3_prepare_v2() function compiles the SQL query. sqlite3_bind_int(res, 1, 3);
+  The sqlite3_bind_int() binds(ភ្ជាប់)​​ an integer value to the prepared statement */
+===============================================================================================================
+/*This function executes a prepared statement. The function will return SQLITE_DONE when the statement has
+  finished executing. */
+===============================================================================================================
+/*The sqlite3_finalize() function is called to delete a prepared statement. If the most recent evaluation of
+  the statement encountered no errors or if the statement is never been evaluated, then sqlite3_finalize()
+  returns SQLITE_OK. If the most recent evaluation of statement S failed, then sqlite3_finalize(S) returns the
+  appropriate error code or extended error code. */
+===============================================================================================================
+*------------------------------------Insert data without user input-------------------------------------------
+  string query = "INSERT INTO USER(NAME, ID, EMAIL) VALUES('SenghortKry',1234,'SenghortKry@gmail.com');"; */
+//SQLITE_TRANSIENT means SQLite makes an internal copy. So when the bind returns, you are free to release your 
+  own memory. we use it to allocate space memory.
+===============================================================================================================
++ sequence of characters representing the current value of the basic_str obj.
++ result = sqlite3_exec(db,sql.c_str(),NULL,0,&messageError)
+- db : mean that we point to file name is "A.db";
+- sql.c_str() : is used to return pointer to an array that contains a null terminated.
+- NULL : mean that for some columns or rows which does not have element so it display "NULL";
+- 0 : it is its syntax;
+- &messageError : if the we have any matter in our database file. it will display the error point.
+- exit or result : are used to check error.
+- int exit = 0 : mean that the rule of checking on codition true or false. if true it will display SQLITE_OK;
+- sqlite3_free(messageError) = sqlite3_errmsg(DB);
+- const char : mean that the value that we set it as constant no transformation. It get from main function.
+- const char *dir : used to point and set file location.
+- argv : mean that the number of column that each of the row has.
+===============================================================================================================
+- sqlite3_step() is the function that is used to called again to retrieve the next row of data.
