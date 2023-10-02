@@ -1,0 +1,3 @@
+e20200706 12345 12345 sengort dady nana visal security 08/05/1970 buy villa house Takeo 011462700 25.8104 1.07543 24
+e20200706 12345 12345 senghort daro dara sasa datascientist 11/3/1993 buy villa house takeo 011462700 586.599 24.4416 24
+e20200706 54321 12345 senghort dara daro sasa datascientist 11/3/1995 buy house takeo 011462700 27.9599 0.776664 36
